@@ -7,6 +7,8 @@ body {
     font-family: 'Poppins', sans-serif;
     ;
 }
+
+/* header style  */
 header {
     margin: 50px 140px;
 }
@@ -41,3 +43,46 @@ header {
     width: 581px;
     height: 613px;
 }
+
+/* blogs styles */
+main {
+    margin: 50px 140px;
+}
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-row-gap: 24px;
+}
+.blog {
+    width: 312px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    
+}
+.blog a {
+    border: 1px solid #161616;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0 16px;
+    color: black;
+    font-weight: 700;
+}
+.blog-details {
+    padding: 20px 20px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+.icon-div {
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.fa {
+    color: rgb(167, 167, 167);
+    font-size: 20px;
+    padding-right: 15px;
+}
+
