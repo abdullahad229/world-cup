@@ -10,7 +10,9 @@ body {
 
 /* header style  */
 header {
-    margin: 50px 140px;
+    margin-top: 3em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .banner {
     display: flex;
@@ -24,9 +26,13 @@ header {
 .half-width {
     width: 40%;
     color: white;
+    transition: transform 2s;
+}
+.half-width:hover {
+    transform: scale(1.1);
 }
 .half-width h1 {
-    font-size: 70px;
+    font-size: 3em;
     font-weight: 700;
 }
 .half-width p {
@@ -38,6 +44,9 @@ header {
     text-decoration: none;
     padding: 16px 50px;
     border-radius: 5px;
+}
+.red-button {
+    color: white;
 }
 .half-width img {
     width: 581px;
@@ -51,6 +60,7 @@ main {
 .event-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 90px;
 }
 .upcoming-match {
     background-color: #161616;
@@ -64,8 +74,8 @@ main {
     align-items: center;
     justify-content: center;
     background-color: white;
-    width: 252px;
-    height: 64px;
+    width: 15.75em;
+    height: 4em;
     margin: 30px 30px;
     border-radius: 10px;
 }
@@ -80,7 +90,7 @@ main {
 }
 .blogs {
     display: grid;
-    grid-template-columns: repeat(3, 312px);
+    grid-template-columns: repeat(3, 19.5em);
     grid-column-gap: 24px;
     justify-content: center;
     grid-row-gap: 24px;
@@ -92,8 +102,8 @@ main {
     
 }
 .blog img {
-    width: 312px;
-    height: 175px;
+    width: 19.5em;
+    height: 10.93em;
 }
 .blog a {
     border: 1px solid #161616;
@@ -104,7 +114,7 @@ main {
     font-weight: 700;
 }
 .blog-details {
-    padding: 20px 20px;
+    padding: 1.25em;
 }
 .icon {
     display: flex;
@@ -130,6 +140,7 @@ footer {
     text-align: center;
     height: 444px;
     background-color: #161616;
+    margin-top: 50px;
 }
 footer h2 {
     font-size: 40px;
@@ -155,3 +166,5 @@ footer .fa {
     color: white;
     padding-right: 0px;
 }
+
+
